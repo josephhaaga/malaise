@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html class="full" lang="en">
 <!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
-
 <head>
 
     <meta charset="utf-8">
@@ -31,17 +30,33 @@
 
 <body>
 
-
-<!-- <h2 style="margin-top:50px;color:white;">LKOREM IOSUM OFIHKJHAKLJHDASJHM</h2> -->
+<!-- PAGE CONTROLS -->
 
 <div id="wrapper">
-    <!-- Navigation -->
+    <div id="videowrapper">
+        <br><br>
+        <div class="row" id="overlay">
+            <div class="col-md-4 col-md-offset-2">
+                <a style="font-family:hotBoy;font-size:9em;color:white;" href="jamie.html">malaise</a>
+            </div>
+        </div>
+        <div class="row" id="overlay">
+            <div class="col-md-4 col-md-offset-2">
+                <a style="font-family:malaiseFont;font-size:7em;color:white;" href="threads/team.jpg">spring</a>
+            </div>
+        </div>
+        <div class="row" id="overlay">
+            <div class="col-md-4 col-md-offset-2">
+                <a style="font-family:malaiseFont;font-size:7em;color:white;" href="threads/plugshirt.jpg">fall</a>
+            </div>
+        </div>
+    </div>
 </div>
 
     
 
     <!-- Put your page content here! -->
-<a class="navbar-brand" style="font-family:hotBoy;font-size:10em;color:white;margin-top:50%;" href="jamie.html">malaise</a>
+
 
 
     <!-- jQuery -->
@@ -53,7 +68,7 @@
     <script>
         $('head').ready(function() {
             var options = { videoId: 'Yyz0ez17hS8', start: 3, mute: false };
-            $('body').tubular(options);
+            $('#videowrapper').tubular(options);
             // $('.container').tubular(options);
             // f-UGhWj1xww cool sepia hd
             // 49SKbS7Xwf4 beautiful barn sepia
